@@ -1,0 +1,152 @@
+/* Обнуляющий стиль */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+ol li,
+ul li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	background-color: rgba(192, 192, 192, 0.329);
+	font-family: "FuturaFuturisLightC";
+	height: 100%;
+	font-size: 14px;
+	line-height: 1;
+}
+/* -------------- */
+ .wrapper {
+	 padding:  50px;
+	 max-width: 1400px;
+	 background-color: aliceblue;
+	 margin: 30px auto;
+ }
+
+ .container {
+	 margin: -150px 0px 0px 0px ;
+ }
+
+.menu {
+font-family: "Poppins";
+	margin: 0px 50px 0px 0px;}
+
+.menu:first-child {
+	content: "";
+	background: url(../img/img1.png) 0 0/100% no-repeat;
+	max-width: 150px;
+}
+
+
+.button {
+	max-width: 160px;
+	background-color: #70c851;
+	padding: 10px 20px;
+	text-align: center;
+	border-radius: 15px;
+	margin: 30px;
+	color: white;
+	letter-spacing: 2px;
+	box-shadow: 0px 4px 0px #000;
+}
+.button:hover {
+	color: #000;
+}
+.images {
+	margin: 100px 0px 0px 70px ;
+}
+.block {
+display: flex;
+justify-content: space-between;
+padding: 50px;
+}
+.title {
+	font-family: "Poppins";
+	font-weight: 600;
+	font-size: 14px;
+	text-transform: uppercase;
+	/* margin: 0px 0px 0px -250px ; */
+}
+ .text {
+	 font-family:"Poppins";
+	 font-weight: 700;
+	 font-size: 25px;
+
+
+ }
+ .text2 {
+ font-family:"Poppins";
+	 font-weight: 500;
+	 font-size: 14px;
+	 line-height: 20px;
+	
+ }
+span {
+	font-family: "Poppins";
+	font-size: 30px;
+	font-weight: bold;
+	margin: 50px 0px 0px -1050px;
+}
+
+ .content {
+	 padding: 90px;
+	 max-width: 600px;
+	margin: 0px 0px 0px 0px;
+	line-height: 60px;
+ }
+ li {
+display: inline-block;
+font-family: "Poppins";
+	line-height: 60px;
+	font-size: 10px;
+ }
+ .list1::before {
+	 content: "";
+	 background: url(../img/🔹\ Icon\ Color.png)00/100% no-repeat;
+	  width: 15px;
+   height: 15px;
+   display: inline-block;
+   margin: -7px 10px -5px 0px;
+ }
+ .list2::before {
+ content: "";
+	 background: url(../img/🔹\ глазик.png) 00/100% no-repeat;
+	  width: 15px;
+   height: 15px;
+   display: inline-block;
+	margin: -7px 10px -5px 15px;
+
+
+ }
+  .list3::before {
+ content: "";
+	 background: url(../img/🔹\ листочки.png) 00/100% no-repeat;
+	  width: 15px;
+   height: 15px;
+   display: inline-block;
+	margin: -7px 10px -7px 25px;
+
+
